@@ -11,7 +11,7 @@
 
     <!-- Contenedor principal -->
     <div class="min-h-screen flex items-center justify-center px-4">
-        <div class="text-center space-y-10">
+        <div class="text-center space-y-12">
 
             <!-- Nombre -->
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 animate-pulse">
@@ -23,28 +23,42 @@
                 Bienvenido a mi biografía
             </p>
 
-            <!-- Botones organizados -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
-                <a href="{{ url('/ninez') }}" 
-                   class="px-6 py-4 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 transition transform hover:scale-105">
-                   🎮 Niñez
-                </a>
+            <!-- Sección Biografía -->
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-200 mb-6">📖 Mi Biografía</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-2xl mx-auto">
+                    <a href="{{ url('/ninez') }}" 
+                       class="px-6 py-4 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 transition transform hover:scale-105">
+                       🎮 Niñez
+                    </a>
 
-                <a href="{{ url('/adolescencia') }}" 
-                   class="px-6 py-4 rounded-xl bg-purple-500 text-white font-semibold hover:bg-purple-600 transition transform hover:scale-105">
-                   🎭 Adolescencia
-                </a>
+                    <a href="{{ url('/adolescencia') }}" 
+                       class="px-6 py-4 rounded-xl bg-purple-500 text-white font-semibold hover:bg-purple-600 transition transform hover:scale-105">
+                       🎭 Adolescencia
+                    </a>
 
-                <a href="{{ url('/adultez') }}" 
-                   class="px-6 py-4 rounded-xl bg-pink-500 text-white font-semibold hover:bg-pink-600 transition transform hover:scale-105">
-                   🌍 Actualidad
-                </a>
+                    <a href="{{ url('/adultez') }}" 
+                       class="px-6 py-4 rounded-xl bg-pink-500 text-white font-semibold hover:bg-pink-600 transition transform hover:scale-105">
+                       🌍 Actualidad
+                    </a>
+                </div>
             </div>
-        
-            <a href="{{ url('/sobremi') }}" 
-   class="mt-6 inline-block px-6 py-3 rounded-xl bg-cyan-500 text-white font-semibold hover:bg-cyan-600 transition">
-   👤 Sobre mí
-</a>
+
+            <!-- Sección Personal -->
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-200 mb-6">✨ Más sobre mí</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-lg mx-auto">
+                    <a href="{{ url('/sobremi') }}" 
+                       class="px-6 py-4 rounded-xl bg-cyan-500 text-white font-semibold hover:bg-cyan-600 transition transform hover:scale-105">
+                       👤 Sobre mí
+                    </a>
+
+                    <a href="{{ url('/metas') }}" 
+                       class="px-6 py-4 rounded-xl bg-indigo-500 text-white font-semibold hover:bg-indigo-600 transition transform hover:scale-105">
+                       🚀 Mis Metas
+                    </a>
+                </div>
+            </div>
 
             <!-- Decoración -->
             <div class="flex justify-center space-x-3">

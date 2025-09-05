@@ -21,3 +21,7 @@ Route::get('/adultez', function () {
 Route::get('/sobremi', function () {
     return view('sobremi');
 });
+
+Route::get('/metas', function () {
+    return view('metas');
+});
