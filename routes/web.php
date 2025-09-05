@@ -13,3 +13,7 @@ Route::get('/ninez', function () {
 Route::get('/adolescencia', function () {
     return view('adolescencia');
 });
+
+Route::get('/adultez', function () {
+    return view('adultez');
+});

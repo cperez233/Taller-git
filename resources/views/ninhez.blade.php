@@ -38,11 +38,21 @@
                 amor por la tecnología y disciplina en el estudio marcó mi camino desde bien pequeño.
             </p>
 
-            <!-- Botón volver -->
-            <a href="{{ url('/') }}" 
-               class="inline-block px-6 py-3 rounded-xl bg-amber-500 text-white font-semibold hover:bg-amber-600 transition">
-                ⬅️ Volver al inicio
-            </a>
+            <!-- Botones navegación -->
+<div class="mt-10 flex justify-center">
+    <div class="grid grid-cols-2 gap-6">
+        <a href="{{ url('/') }}" 
+           class="px-6 py-3 rounded-xl bg-gray-700 text-white font-semibold hover:bg-gray-800 transition transform hover:scale-105">
+           🏠 Inicio
+        </a>
+
+        <a href="{{ url('/adolescencia') }}" 
+           class="px-6 py-3 rounded-xl bg-purple-500 text-white font-semibold hover:bg-purple-600 transition transform hover:scale-105">
+           ➡ Adolescencia
+        </a>
+    </div>
+</div>
+
         </div>
     </div>
 
