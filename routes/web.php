@@ -17,3 +17,7 @@ Route::get('/adolescencia', function () {
 Route::get('/adultez', function () {
     return view('adultez');
 });
+
+Route::get('/sobremi', function () {
+    return view('sobremi');
+});

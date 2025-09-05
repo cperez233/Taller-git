@@ -40,6 +40,11 @@
                    🌍 Actualidad
                 </a>
             </div>
+        
+            <a href="{{ url('/sobremi') }}" 
+   class="mt-6 inline-block px-6 py-3 rounded-xl bg-cyan-500 text-white font-semibold hover:bg-cyan-600 transition">
+   👤 Sobre mí
+</a>
 
             <!-- Decoración -->
             <div class="flex justify-center space-x-3">
