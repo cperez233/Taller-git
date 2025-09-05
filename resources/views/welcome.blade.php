@@ -22,6 +22,11 @@
             <p class="text-xl md:text-2xl text-gray-300">
                 Bienvenido a mi biografía
             </p>
+            
+            <a href="{{ url('/ninez') }}" 
+   class="mt-6 inline-block px-6 py-3 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 transition">
+   👉 Ver mi Niñez
+</a>
 
             <!-- Decoración -->
             <div class="flex justify-center space-x-3">
