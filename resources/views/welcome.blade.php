@@ -22,10 +22,15 @@
             <p class="text-xl md:text-2xl text-gray-300">
                 Bienvenido a mi biografía
             </p>
-            
+
             <a href="{{ url('/ninez') }}" 
    class="mt-6 inline-block px-6 py-3 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 transition">
    👉 Ver mi Niñez
+</a>
+<br>
+<a href="{{ url('/adolescencia') }}" 
+   class="mt-6 inline-block px-6 py-3 rounded-xl bg-purple-500 text-white font-semibold hover:bg-purple-600 transition">
+   👉 Ver mi Adolescencia
 </a>
 
             <!-- Decoración -->
