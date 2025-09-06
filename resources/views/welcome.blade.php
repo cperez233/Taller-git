@@ -60,10 +60,17 @@
                 </div>
             </div>
 
-            <div class="col">
-  <a href="{{ url('/experiencia') }}" class="px-6 py-4 rounded-xl bg-red-500 text-white font-semibold hover:bg-red-600 transition transform hover:scale-105">💼 Experiencia Laboral</a>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mt-10">
+    <a href="{{ url('/experiencia') }}" 
+       class="px-6 py-4 rounded-xl bg-red-500 text-white font-semibold hover:bg-red-600 transition transform hover:scale-105 text-center">
+       💼 Experiencia Laboral
+    </a>
+  
+    <a href="{{ url('/habilidades') }}" 
+       class="px-6 py-4 rounded-xl bg-cyan-500 text-white font-semibold hover:bg-cyan-600 transition transform hover:scale-105 text-center">
+       💎 Habilidades
+    </a>
 </div>
-
             <!-- Decoración -->
             <div class="flex justify-center space-x-3">
                 <div class="w-3 h-3 rounded-full bg-blue-400 animate-bounce"></div>
