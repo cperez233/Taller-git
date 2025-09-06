@@ -38,6 +38,23 @@
                 <div class="w-1/2"></div>
             </div>
 
+            <!-- Universidad -->
+            <div class="mb-12 flex items-center w-full">
+                <div class="w-1/2"></div>
+                <div class="z-10">
+                    <div class="w-6 h-6 rounded-full bg-emerald-500 border-4 border-gray-900"></div>
+                </div>
+                <div class="w-1/2 pl-8 text-left">
+                    <h2 class="text-2xl font-bold text-emerald-400">Universidad Autónoma de Bucaramanga (UNAB)</h2>
+                    <p class="text-gray-300 mt-3 leading-relaxed">
+                        Actualmente curso <span class="font-semibold">Ingeniería de Sistemas</span> en la UNAB. 
+                        Aquí he potenciado mis habilidades en programación, resolución de problemas y trabajo en equipo, 
+                        preparándome como profesional para los retos tecnológicos del futuro.
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <!-- Botón de regreso -->
         <div class="mt-10">
             <a href="{{ url('/') }}" 
