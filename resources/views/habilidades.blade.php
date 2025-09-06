@@ -25,9 +25,10 @@
                     <h2 class="text-2xl font-bold text-cyan-400 mb-3">Habilidades Sociales</h2>
                     <p class="text-gray-300 leading-relaxed">
                         Liderazgo, trabajo en equipo y amabilidad. Además, manejo del <b>inglés C1+</b>, 
-                        comunicación efectiva y empatía en entornos diversos.
+                        comunicación efectiva y empatía en entornos diversos. Aprendo rápido y me adapto a cualquier situación.
                     </p>
                 </div>
+
  <!-- Habilidades Técnicas -->
             <div class="bg-gray-900 rounded-2xl shadow-2xl p-8 border border-green-600 hover:scale-105 transition transform text-center">
                     <div class="text-5xl mb-4">💻</div>
@@ -39,6 +40,18 @@
                         También con creatividad en la cocina 😅.
                     </p>
                 </div>
+                <!-- Habilidades de Gestión -->
+                <div class="bg-gray-900 rounded-2xl shadow-2xl p-8 border border-blue-600 hover:scale-105 transition transform text-center">
+                    <div class="text-5xl mb-4">📊</div>
+                    <h2 class="text-2xl font-bold text-blue-400 mb-3">Gestión y Organización</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Planificación de proyectos, manejo del tiempo y organización de tareas. 
+                        Capacidad para tomar decisiones bajo presión y orientar procesos 
+                        hacia resultados claros y efectivos.
+                    </p>
+                </div>
+
+            </div>
                  <!-- Botón volver -->
             <div class="text-center">
                 <a href="{{ url('/') }}" 
