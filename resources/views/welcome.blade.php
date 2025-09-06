@@ -60,17 +60,27 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto mt-10">
-    <a href="{{ url('/experiencia') }}" 
-       class="px-6 py-4 rounded-xl bg-red-500 text-white font-semibold hover:bg-red-600 transition transform hover:scale-105 text-center">
-       💼 Experiencia Laboral
-    </a>
-  
-    <a href="{{ url('/habilidades') }}" 
-       class="px-6 py-4 rounded-xl bg-cyan-500 text-white font-semibold hover:bg-cyan-600 transition transform hover:scale-105 text-center">
-       💎 Habilidades
-    </a>
-</div>
+            <!-- Sección Profesional -->
+            <div>
+                <h2 class="text-2xl font-semibold text-gray-200 mb-6">💼 Mi Trayectoria</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+                    <a href="{{ url('/experiencia') }}" 
+                       class="px-6 py-4 rounded-xl bg-rose-400 text-white font-semibold hover:bg-rose-500 transition transform hover:scale-105">
+                       💼 Experiencia Laboral
+                    </a>
+                  
+                    <a href="{{ url('/habilidades') }}" 
+                       class="px-6 py-4 rounded-xl bg-emerald-400 text-white font-semibold hover:bg-emerald-500 transition transform hover:scale-105">
+                       💎 Habilidades
+                    </a>
+                    
+                    <a href="{{ url('/academia') }}" 
+                       class="px-6 py-4 rounded-xl bg-teal-400 text-white font-semibold hover:bg-teal-500 transition transform hover:scale-105">
+                       📚 Academia
+                    </a>
+                </div>
+            </div>
+
             <!-- Decoración -->
             <div class="flex justify-center space-x-3">
                 <div class="w-3 h-3 rounded-full bg-blue-400 animate-bounce"></div>

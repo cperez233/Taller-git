@@ -33,3 +33,7 @@ Route::get('/experiencia', function () {
 Route::get('/habilidades', function () {
     return view('habilidades');
 });
+
+Route::get('/academia', function () {
+    return view('academia');
+});
