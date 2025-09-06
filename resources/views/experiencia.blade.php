@@ -37,7 +37,17 @@
                     desarrollando habilidades de servicio al cliente y trabajo en equipo, aparte de poder demostrar mi nivel de ingles. ✨
                 </p>
             </div>
+<!-- Experiencia 3 -->
+<div class="bg-white rounded-2xl shadow-xl p-6 hover:scale-105 transition">
+                <h2 class="text-xl font-bold text-blue-600 mb-4">💻 Empresa de Computación</h2>
+                <p>
+                    Más adelante trabajé como ingeniero en una empresa de computación.  
+                    Allí puse en práctica mis conocimientos en sistemas,  
+                    desarrollando soluciones tecnológicas y liderando proyectos. 🚀
+                </p>
+            </div>
 
+        </div>
             <!-- Botón volver -->
         <div class="text-center mt-12">
             <a href="{{ url('/') }}" 
