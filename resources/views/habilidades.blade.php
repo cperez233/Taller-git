@@ -28,7 +28,17 @@
                         comunicación efectiva y empatía en entornos diversos.
                     </p>
                 </div>
-
+ <!-- Habilidades Técnicas -->
+            <div class="bg-gray-900 rounded-2xl shadow-2xl p-8 border border-green-600 hover:scale-105 transition transform text-center">
+                    <div class="text-5xl mb-4">💻</div>
+                    <h2 class="text-2xl font-bold text-green-400 mb-3">Habilidades Técnicas</h2>
+                    <p class="text-gray-300 leading-relaxed">
+                        Programación en <b>Python, PHP, Java, JavaScript</b>. 
+                        Manejo de bases de datos SQL, frameworks como Laravel, 
+                        y desarrollo de aplicaciones web.  
+                        También con creatividad en la cocina 😅.
+                    </p>
+                </div>
                  <!-- Botón volver -->
             <div class="text-center">
                 <a href="{{ url('/') }}" 
