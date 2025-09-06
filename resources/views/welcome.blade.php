@@ -60,6 +60,10 @@
                 </div>
             </div>
 
+            <div class="col">
+  <a href="{{ url('/experiencia') }}" class="px-6 py-4 rounded-xl bg-red-500 text-white font-semibold hover:bg-red-600 transition transform hover:scale-105">💼 Experiencia Laboral</a>
+</div>
+
             <!-- Decoración -->
             <div class="flex justify-center space-x-3">
                 <div class="w-3 h-3 rounded-full bg-blue-400 animate-bounce"></div>

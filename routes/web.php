@@ -25,3 +25,7 @@ Route::get('/sobremi', function () {
 Route::get('/metas', function () {
     return view('metas');
 });
+
+Route::get('/experiencia', function () {
+    return view('experiencia');
+});
