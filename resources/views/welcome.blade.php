@@ -62,7 +62,7 @@
 
             <!-- Sección Profesional -->
             <div>
-                <h2 class="text-2xl font-semibold text-gray-200 mb-6">💼 Mi Trayectoria</h2>
+                <h2 class="text-2xl font-semibold text-gray-200 mb-6">🛫 Mi Trayectoria 🛬</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
                     <a href="{{ url('/experiencia') }}" 
                        class="px-6 py-4 rounded-xl bg-rose-400 text-white font-semibold hover:bg-rose-500 transition transform hover:scale-105">
