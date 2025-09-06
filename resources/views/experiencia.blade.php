@@ -27,6 +27,17 @@
                 </p>
             </div>
 
+  <!-- Experiencia 2 -->
+  <div class="bg-white rounded-2xl shadow-xl p-6 hover:scale-105 transition">
+                <h2 class="text-xl font-bold text-blue-600 mb-4">🏰 Disney - Quick Service Food & Beverage</h2>
+                <p>
+                    En 2025 tuve la oportunidad de trabajar en Disney World, Orlando,  
+                    como parte del programa cultural.  
+                    Estuve en el área de Quick Service Food & Beverage,  
+                    desarrollando habilidades de servicio al cliente y trabajo en equipo, aparte de poder demostrar mi nivel de ingles. ✨
+                </p>
+            </div>
+
             <!-- Botón volver -->
         <div class="text-center mt-12">
             <a href="{{ url('/') }}" 
